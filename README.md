@@ -56,8 +56,8 @@ Detailed component and wiring information are available in
 
 The repository includes two sketches:
 
-- [`Code/rover_main/rover_main.ino`](Rover) – Controls sensors, motor logic, LoRa transmission, and hazard detection on the rover.  
-- [`Code/train_module_main/train_module_main.ino`](Train Module) – Receives and displays LoRa alerts, measures train speed, and transmits periodic updates to the rover.
+- [`Rover`](Code/rover_main/rover_main.ino) – Controls sensors, motor logic, LoRa transmission, and hazard detection on the rover.  
+- [`Train Module`](Code/train_module_main/train_module_main.ino) – Receives and displays LoRa alerts, measures train speed, and transmits periodic updates to the rover.
 
 Both sketches require:
 - **LoRa Library** (Sandeep Mistry)  
